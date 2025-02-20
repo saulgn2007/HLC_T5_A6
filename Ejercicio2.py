@@ -11,4 +11,4 @@ def Contraseña(longitud):
     contraseña = ''.join(random.choice(caracteres) for i in range(longitud))
     return contraseña
 
-print(Contraseña(12))
+print(Contraseña(random.randint(1, 10)))
